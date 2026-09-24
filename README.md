@@ -7,7 +7,7 @@ Pick a moment from the streets of Leonida — or drop in **your own photo** — 
 ![Vice City Snapmatic](screenshots/banner.png)
 
 > 🔗 **Live demo:** https://vice-city-snapmatic.vercel.app · **Repo:** https://github.com/m4ik-crtl/vice-city-snapmatic
-> *(update the live link with the exact URL Vercel gives you after deploy)*
+
 
 ---
 

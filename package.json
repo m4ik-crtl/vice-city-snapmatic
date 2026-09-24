@@ -1,0 +1,25 @@
+{
+  "name": "vice-city-snapmatic",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A GTA VI-inspired in-game photo app built with Unlayer's React Image Editor. #BuiltWithImageEditor",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@unlayer/react-image-editor": "^1.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

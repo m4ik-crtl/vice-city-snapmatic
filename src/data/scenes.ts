@@ -1,0 +1,177 @@
+import type { Scene } from '../types';
+
+/**
+ * Thirteen "moments" from Leonida — one per still the user provided in
+ * /public/moments. Bundled locally so the editor never hits a CORS wall.
+ */
+export const SCENES: Scene[] = [
+  {
+    id: 'the-keys',
+    title: { en: 'Fly the Keys', pt: 'Sobrevoar os Keys' },
+    location: 'Leonida Keys',
+    category: { en: 'Escape', pt: 'Escapada' },
+    blurb: {
+      en: 'Seaplane low over the causeway, city on the horizon.',
+      pt: 'Hidroavião rasante sobre a ponte, a cidade no horizonte.',
+    },
+    image: '/moments/keys.webp',
+    accent: '#22d3ee',
+    tags: ['#LeonidaKeys', '#Seaplane', '#GTA6'],
+  },
+  {
+    id: 'squalo-sunset',
+    title: { en: 'Cruise the Bay', pt: 'Rolê pela Baía' },
+    location: 'Vice Beach',
+    category: { en: 'Boats', pt: 'Lanchas' },
+    blurb: {
+      en: 'Squalo wide open as the skyline lights up.',
+      pt: 'Squalo no talo enquanto o skyline acende.',
+    },
+    image: '/moments/squalo.webp',
+    accent: '#ff2d9b',
+    tags: ['#Squalo', '#ViceBeach', '#GTA6'],
+  },
+  {
+    id: 'the-marina',
+    title: { en: 'The Marina', pt: 'A Marina' },
+    location: 'Vice Beach',
+    category: { en: 'Boats', pt: 'Lanchas' },
+    blurb: {
+      en: 'Chrome and salt water, tied up at golden hour.',
+      pt: 'Cromado e maresia, atracado no golden hour.',
+    },
+    image: '/moments/squalo2.webp',
+    accent: '#38bdf8',
+    tags: ['#Marina', '#Squalo', '#GTA6'],
+  },
+  {
+    id: 'vice-style',
+    title: { en: 'Vice City Style', pt: 'Estilo Vice City' },
+    location: 'The Causeway',
+    category: { en: 'Fashion', pt: 'Moda' },
+    blurb: {
+      en: 'Golden light, tiger boots, main-character energy.',
+      pt: 'Luz dourada, botas de onça, energia de protagonista.',
+    },
+    image: '/moments/vicestyle.webp',
+    accent: '#ffb15c',
+    tags: ['#ViceStyle', '#Fit', '#GTA6'],
+  },
+  {
+    id: 'ink-neon',
+    title: { en: 'Ink & Neon', pt: 'Tinta & Neon' },
+    location: 'Little Havana',
+    category: { en: 'Night Life', pt: 'Vida Noturna' },
+    blurb: {
+      en: 'New ink, red neon, and the crew outside the parlor.',
+      pt: 'Tatuagem nova, neon vermelho e a firma na porta do estúdio.',
+    },
+    image: '/moments/electricfang.webp',
+    accent: '#ff4fd8',
+    tags: ['#Ink', '#NightLife', '#GTA6'],
+  },
+  {
+    id: 'saras-salon',
+    title: { en: "Sara's Salon", pt: 'Salão da Sara' },
+    location: 'Little Havana',
+    category: { en: 'Lifestyle', pt: 'Lifestyle' },
+    blurb: {
+      en: 'Fresh set, big shades, zero worries.',
+      pt: 'Unha nova, óculos escuros, zero preocupação.',
+    },
+    image: '/moments/salon-lucia.webp',
+    accent: '#a855f7',
+    tags: ['#SarasSalon', '#SelfCare', '#GTA6'],
+  },
+  {
+    id: 'fresh-cut',
+    title: { en: 'Fresh Cut', pt: 'Corte Novo' },
+    location: 'Little Havana',
+    category: { en: 'Lifestyle', pt: 'Lifestyle' },
+    blurb: {
+      en: 'New fade, new attitude, out the door.',
+      pt: 'Corte novo, atitude nova, já na porta.',
+    },
+    image: '/moments/salon-jason.webp',
+    accent: '#f472b6',
+    tags: ['#FreshCut', '#Barbershop', '#GTA6'],
+  },
+  {
+    id: 'late-night-run',
+    title: { en: 'Late Night Run', pt: 'Corre da Madruga' },
+    location: 'PTT Store',
+    category: { en: 'Street', pt: 'Rua' },
+    blurb: {
+      en: 'Bikes, smoke, and the block after midnight.',
+      pt: 'Motos, fumaça e a quebrada depois da meia-noite.',
+    },
+    image: '/moments/pttstore.webp',
+    accent: '#fb923c',
+    tags: ['#StreetLife', '#Bikes', '#GTA6'],
+  },
+  {
+    id: 'golden-hour',
+    title: { en: 'Golden Hour', pt: 'Golden Hour' },
+    location: 'Vice Boulevard',
+    category: { en: 'Cruise', pt: 'Rolê' },
+    blurb: {
+      en: 'Windows down, sun in the mirror, no plans.',
+      pt: 'Vidro aberto, sol no retrovisor, sem hora pra chegar.',
+    },
+    image: '/moments/jason2.webp',
+    accent: '#fbbf24',
+    tags: ['#GoldenHour', '#Leonida', '#GTA6'],
+  },
+  {
+    id: 'lay-low',
+    title: { en: 'Lay Low', pt: 'Modo Discreto' },
+    location: 'Leonida',
+    category: { en: 'Portrait', pt: 'Retrato' },
+    blurb: {
+      en: 'One half of the story. Shades on, guard up.',
+      pt: 'Uma metade da história. Óculos escuros, na defensiva.',
+    },
+    image: '/moments/jason.webp',
+    accent: '#22d3ee',
+    tags: ['#LayLow', '#Portrait', '#GTA6'],
+  },
+  {
+    id: 'off-duty',
+    title: { en: 'Off Duty', pt: 'De Folga' },
+    location: 'Leonida',
+    category: { en: 'Portrait', pt: 'Retrato' },
+    blurb: {
+      en: 'Cap back, sun down, the day finally quiet.',
+      pt: 'Boné pra trás, sol baixo, o dia enfim calmo.',
+    },
+    image: '/moments/jason3.webp',
+    accent: '#34d399',
+    tags: ['#OffDuty', '#Portrait', '#GTA6'],
+  },
+  {
+    id: 'ride-or-die',
+    title: { en: 'Ride or Die', pt: 'Fiel Até o Fim' },
+    location: 'Leonida',
+    category: { en: 'Portrait', pt: 'Retrato' },
+    blurb: {
+      en: 'The other half. Ride or die, all the way.',
+      pt: 'A outra metade. Fiel até o fim.',
+    },
+    image: '/moments/lucia.webp',
+    accent: '#ff2d9b',
+    tags: ['#RideOrDie', '#Portrait', '#GTA6'],
+  },
+  {
+    id: 'first-light',
+    title: { en: 'First Light', pt: 'Primeira Luz' },
+    location: 'Leonida',
+    category: { en: 'Portrait', pt: 'Retrato' },
+    blurb: {
+      en: 'The city before it wakes up. Just her.',
+      pt: 'A cidade antes de acordar. Só ela.',
+    },
+    image: '/moments/lucia2.webp',
+    accent: '#c084fc',
+    tags: ['#FirstLight', '#Portrait', '#GTA6'],
+  },
+];
